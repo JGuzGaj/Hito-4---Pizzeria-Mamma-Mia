@@ -1,16 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El objetivo de este hito es implementar el consumo de una API externa en la aplicación web.
+En el material de apoyo encontrarás un backend de ejemplo que contiene una API de pizzas.
+Utiliza este backend para cargar la información de las pizzas. Sigue las siguientes:
+instrucciones:
+Levantar el backend
+Vamos a consumir una API de pizzas, estas pizzas están almacenadas en un backend que
+te proporcionamos. No es necesario que modifiques el backend, solo necesitas levantarlo
+para poder consumir la API, ya que el propósito de este curso es trabajar con el frontend.
+Para levantar el backend, sigue los siguientes pasos:
+1. Descarga el “Material de apoyo - Backend Pizzas”.
+2. Instala las dependencias con npm install.
+3. Levantar el servidor con npm start. El servidor se levantará en el puerto 5000.
